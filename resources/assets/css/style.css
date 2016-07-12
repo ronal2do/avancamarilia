@@ -47,7 +47,12 @@
 }
 
 
-
+.Flex{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
 html,
 body{
   	font-family: 'Gotham-Book';
@@ -55,7 +60,7 @@ body{
   	color: #fff;
 }
 .Azul{
-    background-color: #192854;
+    background-color: #27A9E1;
     height: 170px;
     /* background: url('../images/Fundo.jpg'); */
     background-size: cover;
@@ -81,6 +86,9 @@ p.Strong,
 .Menu-texto {
   font-family: 'Gotham-Bold';
   color: #fff;
+}
+.Pomba{
+  align-self: flex-end;
 }
 .italic {
     font-style: italic;
@@ -159,14 +167,12 @@ p.Strong,
 .Logo{
     background-image: url('../svg/logo.svg');
     background-size: contain;
-    height: 101px;
+    height: 59px;
     margin: 5px;
     width: 313px;
     max-width: 100%;
     background-repeat: no-repeat;
 }
-
-
 
 a,
 a:hover {
@@ -191,16 +197,10 @@ a:hover {
     height:calc(100vh - 170px);
 }
 .Header{
- background: rgba(0,98,176,1);
-background: -moz-radial-gradient(center, ellipse cover, rgba(0,98,176,1) 0%, rgba(25,40,84,0.9) 68%, rgba(25,40,84,0.86) 100%);
-background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0,98,176,1)), color-stop(68%, rgba(25,40,84,0.9)), color-stop(100%, rgba(25,40,84,0.86)));
-background: -webkit-radial-gradient(center, ellipse cover, rgba(0,98,176,1) 0%, rgba(25,40,84,0.9) 68%, rgba(25,40,84,0.86) 100%);
-background: -o-radial-gradient(center, ellipse cover, rgba(0,98,176,1) 0%, rgba(25,40,84,0.9) 68%, rgba(25,40,84,0.86) 100%);
-background: -ms-radial-gradient(center, ellipse cover, rgba(0,98,176,1) 0%, rgba(25,40,84,0.9) 68%, rgba(25,40,84,0.86) 100%);
-background: radial-gradient(ellipse at center, rgba(0,98,176,1) 0%, rgba(25,40,84,0.9) 68%, rgba(25,40,84,0.86) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0062b0', endColorstr='#192854', GradientType=1 );
+    background: #27A9E1;
     display: flex;
     padding: 30px;
+    padding-top: 55px;
     align-items: center;
     justify-content: center;
 }
@@ -287,6 +287,7 @@ img{
 }
 .Menu-btn{
   float: right;
+  align-self: flex-end;
 }
 
 p {
@@ -429,7 +430,7 @@ p {
   .Logo{
       background-image: url('../svg/logo.svg');
       background-size: contain;
-      height: 142px;
+      height: 59px;
       width: 459px;
       max-width: 100%;
       background-repeat: no-repeat;
@@ -452,7 +453,7 @@ p {
      height: calc(100vh - 212px);
   }
   .Azul{
-    background-color: #192854;
+    background-color: #27A9E1;
     height: 212px;
   }
   .Menu-item:nth-child(1) {
@@ -494,6 +495,9 @@ p {
 }
 
 @media only screen and (min-width : 968px) {
+  .Header{
+    padding-top: 75px;
+}
   .Amarelo{
     background: #EEBC20;
     color: white;
@@ -505,7 +509,7 @@ p {
   .Logo{
       background-image: url('../svg/logo.svg');
       background-size: contain;
-      height: 142px;
+      height: 59px;
       width: 459px;
       max-width: 100%;
       background-repeat: no-repeat;
@@ -528,7 +532,7 @@ p {
      height: calc(100vh - 212px);
   }
   .Azul{
-    background-color: #192854;
+    background-color: #27A9E1;
     height: 212px;
   }
  .Menu-item:nth-child(1) {
