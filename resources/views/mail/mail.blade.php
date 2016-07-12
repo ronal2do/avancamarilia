@@ -26,9 +26,9 @@
       <div class="content" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; display: block; max-width: 600px; margin: 0 auto; padding: 0;">
       <table style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; width: 100%; margin: 0; padding: 0;"><tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
 <td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
-           <img src="http://avancamarilia.com.br/assets/images/logo.png" alt="Avança Marília" width="150">
+           <img src="http://avancamarilia.com.br/assets/images/logo.png" alt="Avança Marília" width="100%">
             
-            <h1 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 26px; line-height: 1.2em; color: #ffffff; font-weight: 200; margin: 40px 0 10px; padding: 0; color:#ffffff;">{{ $nome }}, <br></h1>
+            <h1 style="font-family:'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;font-size:26px;line-height:1.2em;color:#ffffff;font-weight:200;margin:40px 0 10px;padding:0;color: #fad742;">{{ $nome }}, <br></h1>
          
 <!-- /button --><p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0; color:#ffffff;">{{ $email }}, {{ $endereco }}, {{ $telefone }}, {{ $celular }} receber WhatsApp {{ $whatsapp }}. </p>
 
