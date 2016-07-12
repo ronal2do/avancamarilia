@@ -40,8 +40,7 @@ class MessageController extends Controller
          	], function ($m) use ($nome, $email, $endereco, $telefone, $celular, $whatsapp, $sugestao) {
             
             $m->to($email)
-              ->cc('ronal2do@gmail.com', 'Avança Marília')
-              // ->cc('vinicius@viniciuscamarinha.com.br', 'Avança Marília')
+              ->cc('vinicius@viniciuscamarinha.com.br', 'Avança Marília')
               ->subject("Avança Marília - Nova sugestão");
         });
 
