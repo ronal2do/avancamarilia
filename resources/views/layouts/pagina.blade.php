@@ -15,7 +15,7 @@
 	       <br><br>
 	     </div>
 	     <div class="col-md-10 col-md-offset-1 Amarelo-link" style="">
-	       <a class="" href="/menu">	<p><i class="fa fa-play fa-rotate-180"></i> Voltar </p></a>
+	       <a style="color: #fff;" href="/menu">	<p><i class="fa fa-play fa-rotate-180"></i> Voltar </p></a>
 	     </div>
     </div>
 </div><!-- final do página colocar o V -->

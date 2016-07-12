@@ -4,7 +4,7 @@
 @section('content')
  <div class="Home">
      <div class="col-md-10 col-md-offset-1">
-       <div class="Menu">
+       <div class="container Menu">
        	<div class="Menu-item waves">
        		<a href="/cidade">
        		<div class="Menu-texto">Avança no cuidado com a cidade</div>

@@ -249,36 +249,36 @@ img{
 }
 .Menu-item:nth-child(1) {
     /* left: 1px; */
-    top: 28px;
+    top: 11px;
     width: 130px;
     height: 114px;
 }
 .Menu-item:nth-child(2) {
-    right: 0%;
-    top: 75px;
+    right: 2%;
+    top: 48px;
     height: 93px;
 }
 .Menu-item:nth-child(3) {
     left: 0px;
-    top: 158px;
+    top: 135px;
     width: 157px;
     height: 91px;
 }
 .Menu-item:nth-child(4) {
     right: 0%;
-    top: 255px;
+    top: 215px;
     width: 142px;
     height: 94px;
 }
 .Menu-item:nth-child(5) {
-    left: 3%;
-    top: 293px;
-    width: 143px;
+    left: 1%;
+    top: 236px;
+    width: 138px;
     height: 111px;
 }
 .Menu-item:nth-child(6) {
-    right: 5%;
-    top: 396px;
+    right: 9%;
+    top: 334px;
     width: 128px;
     height: 38px;
 }
@@ -486,6 +486,78 @@ p {
       right: -1%;
       top: 396px;
       width: 145px;
+      height: 38px;
+  }
+
+}
+
+@media only screen and (min-width : 968px) {
+  .Padding{
+    padding: 30px 35px;
+  }
+  .Logo{
+      background-image: url('../svg/logo.svg');
+      background-size: contain;
+      height: 142px;
+      width: 459px;
+      max-width: 100%;
+      background-repeat: no-repeat;
+  } 
+  .container {
+    padding-right: .9375rem;
+    padding-left: .9375rem;
+  }
+  .Aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 212px);
+  }
+  .Home{
+     width: 100vw;
+     background: url('../images/Fundo.jpg'); 
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: calc(100vh - 212px);
+  }
+  .Azul{
+    background-color: #192854;
+    height: 212px;
+  }
+ .Menu-item:nth-child(1) {
+      left: 7%;
+      top: 70px;
+      width: 250px;
+      height: 88px;
+  }
+  .Menu-item:nth-child(2) {
+      right: 7%;
+      top: 70px;
+      height: 88px;
+      width: 250px;
+  }
+  .Menu-item:nth-child(3) {
+      left: 39%;
+      top: 70px;
+      width: 250px;
+      height: 88px;
+  }
+  .Menu-item:nth-child(4) {
+      right: 38%;
+      top: 220px;
+      width: 251px;
+      height: 85px;
+  }
+  .Menu-item:nth-child(5) {
+      left: 7%;
+      top: 220px;
+      width: 250px;
+      height: 87px;
+  }
+  .Menu-item:nth-child(6) {
+      right: 7%;
+      top: 245px;
+      width: 250px;
       height: 38px;
   }
 
