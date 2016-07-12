@@ -35,7 +35,7 @@
 <!--        		<div class="Menu-btn"><i class="fa fa-play"></i></div> -->
        		</a>
 		</div>
-       	<div class="Menu-item waves" href="/sugestao">
+       	<div class="Menu-item waves">
        		<a href="/sugestao">
        		<div class="Menu-texto">Sugestão <i class="fa fa-play"></i></div>
 <!--        		<div class="Menu-btn"><i class="fa fa-play"></i></div> -->
