@@ -6,7 +6,7 @@
 @section('content')
  <div class="Home">
      <div class="col-md-10 col-md-offset-1 Aligner">
-        <div><img src="./assets/svg/eixos2.svg" alt=""></div>
+        <div><img src="./assets/images/eixos.png" alt=""></div>
      </div>
 </div><!-- container -->
 @endsection
