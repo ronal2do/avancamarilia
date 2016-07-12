@@ -1,6 +1,5 @@
   <div class="grupao">
             <div data-ng-app="mudaScs" class="col-md-12">
-            <br>
                     <form class="form-horizontal" role="form" action="/sugestao" method="POST" name="form">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}">
                             @if (count($errors) > 0)

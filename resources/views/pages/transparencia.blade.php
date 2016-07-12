@@ -1,6 +1,6 @@
 @extends('layouts.pagina')
 @section('titulo')
-  	<h4>AVANÇA NA EFICIÊNCIA E NA TRANSPARÊNCIA</h4>
+  	AVANÇA NA EFICIÊNCIA <br>E NA TRANSPARÊNCIA
 @endsection
 @section('texto')
 	<p>

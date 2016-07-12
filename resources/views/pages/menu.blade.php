@@ -31,7 +31,7 @@
 		</div>
        	<div class="Menu-item waves" >
        		<a href="/transparencia">
-       		<div class="Menu-texto">Avança na eficiencia<br> e na tranparência</div>
+       		<div class="Menu-texto">Avança na eficiência<br> e na tranparência</div>
        		<div class="Menu-btn"><i class="fa fa-play"></i></div>
        		</a>
 		</div>

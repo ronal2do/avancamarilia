@@ -1,6 +1,6 @@
 @extends('layouts.pagina')
 @section('titulo')
-  	<h4>SUGESTão</h4>
+  	SUGESTão
 @endsection
 @section('texto')
 	 @include('includes.form')

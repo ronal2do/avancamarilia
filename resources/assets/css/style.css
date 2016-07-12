@@ -191,14 +191,14 @@ a:hover {
     height:calc(100vh - 170px);
 }
 .Header{
-    background: rgba(25,40,84,1);
-    background: -moz-linear-gradient(left, rgba(25,40,84,1) 0%, rgba(25,40,84,1) 17%, rgba(0,97,176,1) 51%, rgba(25,40,84,1) 84%, rgba(25,40,84,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(25,40,84,1)), color-stop(17%, rgba(25,40,84,1)), color-stop(51%, rgba(0,97,176,1)), color-stop(84%, rgba(25,40,84,1)), color-stop(100%, rgba(25,40,84,1)));
-    background: -webkit-linear-gradient(left, rgba(25,40,84,1) 0%, rgba(25,40,84,1) 17%, rgba(0,97,176,1) 51%, rgba(25,40,84,1) 84%, rgba(25,40,84,1) 100%);
-    background: -o-linear-gradient(left, rgba(25,40,84,1) 0%, rgba(25,40,84,1) 17%, rgba(0,97,176,1) 51%, rgba(25,40,84,1) 84%, rgba(25,40,84,1) 100%);
-    background: -ms-linear-gradient(left, rgba(25,40,84,1) 0%, rgba(25,40,84,1) 17%, rgba(0,97,176,1) 51%, rgba(25,40,84,1) 84%, rgba(25,40,84,1) 100%);
-    background: linear-gradient(to right, rgba(25,40,84,1) 0%, rgba(25,40,84,1) 17%, rgba(0,97,176,1) 51%, rgba(25,40,84,1) 84%, rgba(25,40,84,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#192854', endColorstr='#192854', GradientType=1 );
+ background: rgba(0,98,176,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(0,98,176,1) 0%, rgba(25,40,84,0.9) 68%, rgba(25,40,84,0.86) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0,98,176,1)), color-stop(68%, rgba(25,40,84,0.9)), color-stop(100%, rgba(25,40,84,0.86)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(0,98,176,1) 0%, rgba(25,40,84,0.9) 68%, rgba(25,40,84,0.86) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(0,98,176,1) 0%, rgba(25,40,84,0.9) 68%, rgba(25,40,84,0.86) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(0,98,176,1) 0%, rgba(25,40,84,0.9) 68%, rgba(25,40,84,0.86) 100%);
+background: radial-gradient(ellipse at center, rgba(0,98,176,1) 0%, rgba(25,40,84,0.9) 68%, rgba(25,40,84,0.86) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0062b0', endColorstr='#192854', GradientType=1 );
     display: flex;
     padding: 30px;
     align-items: center;
@@ -216,7 +216,7 @@ img{
     padding: 30px 35px;
   }
   .Padding-title{
-    padding: 30px 35px;
+    padding: 30px 20px;
   }
   .Amarelo{
     background: #EEBC20;
@@ -238,7 +238,7 @@ img{
   padding: 10px;
   width: 150px;
   height: 98px;
-  background: rgba(224, 161, 4, 0.50);
+  background: rgba(224, 161, 4, 0.75);
   position: absolute;
   text-transform: uppercase;
 }
@@ -295,6 +295,8 @@ p {
 
 .v {
     float: right;
+    margin-right: 50px;
+    padding-top: 30px;
 }
 .Home-svg{
   z-index: 100;
@@ -306,7 +308,7 @@ p {
 .Square{
   position: absolute;
   z-index: 7;
-  background: rgba(224, 161, 4, 0.50);
+  background: rgba(224, 161, 4, 0.75);
 }
 .Square:nth-child(1){
     width: 25px;
@@ -401,7 +403,7 @@ p {
   .Menu-item:nth-child(4) {
       right: -2%;
       top: 241px;
-      width: 169px;
+      width: 167px;
       height: 110px;
   }
   .Menu-item:nth-child(5) {
@@ -492,6 +494,11 @@ p {
 }
 
 @media only screen and (min-width : 968px) {
+  .Amarelo{
+    background: #EEBC20;
+    color: white;
+    border: none;
+  }
   .Padding{
     padding: 30px 35px;
   }
@@ -527,38 +534,107 @@ p {
  .Menu-item:nth-child(1) {
       left: 7%;
       top: 70px;
-      width: 250px;
-      height: 88px;
+      width: 200px;
+      height: 150px;
   }
   .Menu-item:nth-child(2) {
       right: 7%;
       top: 70px;
-      height: 88px;
-      width: 250px;
+      height: 150px;
+      width: 200px;
   }
   .Menu-item:nth-child(3) {
-      left: 39%;
+      left: 42%;
       top: 70px;
-      width: 250px;
-      height: 88px;
+      width: 200px;
+      height: 150px;
   }
   .Menu-item:nth-child(4) {
-      right: 38%;
-      top: 220px;
-      width: 251px;
-      height: 85px;
+      left: 42%;
+      top: 238px;
+      width: 200px;
+      height: 150px;
   }
   .Menu-item:nth-child(5) {
       left: 7%;
-      top: 220px;
-      width: 250px;
-      height: 87px;
+      top: 238px;
+      width: 200px;
+      height: 150px;
   }
   .Menu-item:nth-child(6) {
       right: 7%;
-      top: 245px;
-      width: 250px;
-      height: 38px;
+      top: 238px;
+      width: 200px;
+      height: 150px;
+  }
+  .Square:nth-child(1){
+      width: 25px;
+      height: 25px;
+      top: 451px;
+      left: 51%;
+  }
+  .Square:nth-child(2){
+      width: 45px;
+      height: 45px;
+      top: 181px;
+      left: 67%;
+  }
+  .Square:nth-child(3){
+      width: 10px;
+      height: 10px;
+      top: 309px;
+      left: 60%;
+  }
+  .Square:nth-child(4){
+      width: 20px;
+      height: 20px;
+      top: 437px;
+      right: 33%;
+  }
+  .Square:nth-child(5){
+      width: 35px;
+      height: 35px;
+      top: 74px;
+      right: 26%;
+  }
+  .Square:nth-child(6){
+      width: 20px;
+      height: 20px;
+      top: 229px;
+      right: 48%;
+  }
+  .Square:nth-child(7){
+      width: 35px;
+      height: 35px;
+      top: 294px;
+      right: 30%;
+  }
+  .Square:nth-child(8){
+      width: 55px;
+      height: 55px;
+      top: 144px;
+      right: 38%;
+  }
+  .Square:nth-child(9){
+      width: 40px;
+      height: 40px;
+      top: 418px;
+      right: 39%;
+  }
+  .Square:nth-child(10){
+      width: 10px;
+      height: 10px;
+      top: 497px;
+      right: 29%;
+  }
+  .Square:nth-child(11){
+      width: 20px;
+      height: 20px;
+      top: 528px;
+      left: 58%;
+  }
+  .Padding>p {
+    padding: 30px 0px;
   }
 
 }

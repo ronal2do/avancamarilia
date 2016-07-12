@@ -1,6 +1,6 @@
 @extends('layouts.pagina')
 @section('titulo')
-  	<h4>AVANÇA NA PROMOÇÃO DO BEM-ESTAR</h4>
+  	AVANÇA NA PROMOÇÃO<br> DO BEM-ESTAR
 @endsection
 @section('texto')
 	<p>

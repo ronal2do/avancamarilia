@@ -1,6 +1,6 @@
 @extends('layouts.pagina')
 @section('titulo')
-  	<h4>AVANÇA NA GERAÇÃO DE OPORTUNIDADES</h4>
+  	AVANÇA NA GERAÇÃO <br>DE OPORTUNIDADES
 @endsection
 @section('texto')
 	<p>

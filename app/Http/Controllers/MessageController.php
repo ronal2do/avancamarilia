@@ -17,26 +17,26 @@ class MessageController extends Controller
 	{
 	    $input 	= $request->all();
 
-	    $nome   = $input['nome']; 
-	    $email  = $input['email']; 
-	    $endereco  = $input['endereco']; 
-	    $telefone  = $input['telefone']; 
-	    $celular  = $input['celular']; 
-	    $whatsapp  = $input['whatsapp']; 
-	    $sugestao  = $input['sugestao']; 
+	    $nome   	= $input['nome']; 
+	    $email  	= $input['email']; 
+	    $endereco  	= $input['endereco']; 
+	    $telefone  	= $input['telefone']; 
+	    $celular  	= $input['celular']; 
+	    $whatsapp  	= $input['whatsapp']; 
+	    $sugestao  	= $input['sugestao']; 
 
 		Message::create($request->all());
 
 	    Alert::success('Sua sugestão foi enviada!')->autoclose(4000);
 
 	    Mail::send('mail.mail', [
-         		'nome' => $nome, 
-         		'email' => $email, 
-            	'endereco' => $endereco, 
-            	'telefone' => $telefone, 
-            	'celular' => $celular, 
-            	'whatsapp' => $whatsapp, 
-            	'sugestao' => $sugestao
+         		'nome' 		=> $nome, 
+         		'email' 	=> $email, 
+            	'endereco' 	=> $endereco, 
+            	'telefone' 	=> $telefone, 
+            	'celular' 	=> $celular, 
+            	'whatsapp' 	=> $whatsapp, 
+            	'sugestao' 	=> $sugestao
          	], function ($m) use ($nome, $email, $endereco, $telefone, $celular, $whatsapp, $sugestao) {
             
             $m->to($email)
