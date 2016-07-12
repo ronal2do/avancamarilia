@@ -50,7 +50,7 @@
 
 html,
 body{
-  	font-family: 'Gotham-Medium';
+  	font-family: 'Gotham-Book';
   	background-color: #F1F1F2;
   	color: #fff;
 }
@@ -141,8 +141,7 @@ p.Strong,
 }
 .grupao{
 	height: 457px;
-    background: #ececed;
-    padding-top: 2px;
+  padding-top: 2px;
 }
 .Frase{
 	text-align: center;
@@ -297,7 +296,85 @@ p {
 .v {
     float: right;
 }
+.Home-svg{
+  z-index: 100;
+}
+.Home-squares{
+  z-index: 90;
+  position: relative;
+}
+.Square{
+  position: absolute;
+  z-index: 7;
+  background: rgba(224, 161, 4, 0.50);
+}
+.Square:nth-child(1){
+    width: 25px;
+    height: 25px;
+    top: 25px;
+    left: 7%; 
+}
+.Square:nth-child(2){
+    width: 45px;
+    height: 45px;
+    top: 31px;
+    left: 35%;
+}
+.Square:nth-child(3){
+    width: 10px;
+    height: 10px;
+    top: 156px;
+    left: 50%;
+}
+.Square:nth-child(4){
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    right: 4%;
+}
+.Square:nth-child(5){
+    width: 35px;
+    height: 35px;
+    top: 74px;
+    right: 26%;
+}
+.Square:nth-child(6){
+    width: 20px;
+    height: 20px;
+    top: 126px;
+    right: 17%;
+}
+.Square:nth-child(7){
+    width: 35px;
+    height: 35px;
+    top: 236px;
+    right: 26%;
+}
+.Square:nth-child(8){
+    width: 45px;
+    height: 45px;
+    top: 260px;
+    right: 49%;
+}
+.Square:nth-child(9){
+    width: 30px;
+    height: 30px;
+    top: 318px;
+    right: 26%;
+}
+.Square:nth-child(10){
+    width: 10px;
+    height: 10px;
+    top: 280px;
+    right: 6%;
+}
+.Square:nth-child(11){
+    width: 20px;
+    height: 20px;
+    top: 318px;
+    left: 10%;
 
+}
 
 @media only screen and (min-width : 400px) {
   .Menu-item a{
