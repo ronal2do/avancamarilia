@@ -330,9 +330,7 @@ c){var e=a|0,f=c;void 0===f&&(f=Math.min(b(a),3));Math.pow(10,f);return 1==e&&0=
 //# sourceMappingURL=ngMask.min.map
 angular.module('mudaScs', ['ngMask']); 
 
-Waves.attach('.panel-heading');
-Waves.attach('.waves-image');
-Waves.attach('.btn');
+Waves.attach('.waves');
 Waves.init();
 
 //# sourceMappingURL=app.js.map

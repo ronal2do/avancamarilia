@@ -45,7 +45,7 @@ class MessageController extends Controller
      //          ->subject("Muda São Caetano - Nova sugestão");
      //    });
 
-	    return redirect()->intended('/');
+	    return redirect()->intended('/menu');
 	}	
 }
 

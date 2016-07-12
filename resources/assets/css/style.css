@@ -235,35 +235,50 @@ img{
   padding: 10px;
   width: 150px;
   height: 98px;
-  background: rgba(238, 188, 32, 0.53);
+  background: rgba(238, 188, 32, 0.5);
   position: absolute;
+  text-transform: uppercase;
+}
+.Menu-item a{
+  color: #fff;
 }
 .Menu-item:nth-child(1) {
     /* left: 1px; */
     top: 28px;
+    width: 130px;
+    height: 112px;
 }
 .Menu-item:nth-child(2) {
-    left: 148px;
-    top: 111px;
+    right: 2%;
+    top: 75px;
+    height: 88px;
 }
 .Menu-item:nth-child(3) {
     left: 10px;
     top: 172px;
+    width: 185px;
+    height: 87px;
 }
 .Menu-item:nth-child(4) {
-    left: 149px;
+    right: 0%;
     top: 268px;
+    width: 152px;
+    height: 78px;
 }
 .Menu-item:nth-child(5) {
-    left: 7px;
-    top: 341px;
+    left: 7%;
+    top: 338px;
+    width: 172px;
+    height: 78px;
 }
 .Menu-item:nth-child(6) {
-    left: 94px;
+    right: 26%;
     top: 448px;
+    width: 128px;
+    height: 60px;
 }
 .Menu-texto{
-
+  line-height: 1.2em;
 }
 .Menu-btn{
   float: right;
