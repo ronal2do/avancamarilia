@@ -74,9 +74,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p.Strong,
-.panel-title{
+.panel-title {
 	font-family: 'Gotham-Bold';
 	color: #233b73;
+}
+.Menu-texto {
+  font-family: 'Gotham-Bold';
+  color: #fff;
 }
 .italic {
     font-style: italic;
