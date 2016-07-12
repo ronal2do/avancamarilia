@@ -12,7 +12,7 @@
 	       @yield('texto')
 	     </div>
 	     <div class="col-md-10 col-md-offset-1 Amarelo-link" style="">
-	       <a class="" href="/">	<p>< Voltar </p></a>
+	       <a class="" href="/menu">	<p>< Voltar </p></a>
 	     </div>
     </div>
 </div><!-- final do página colocar o V -->
