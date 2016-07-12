@@ -11,8 +11,7 @@
 	e demandas presentes, das ações 
 	emergenciais aos projetos que pensem 
 	a cidade no longo prazo.
-	</p>
-	<p>
+	<br>
 	Áreas contempladas: pavimentação, 
 	habitação, abastecimento de água, 
 	transporte, iluminação pública 

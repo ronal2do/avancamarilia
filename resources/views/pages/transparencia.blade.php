@@ -11,9 +11,7 @@
 		os processos de desburocratização, de 
 		participação social e de planejamento 
 		estratégico, com transparência em todos suas etapas, além da valorização 
-		crescente dos servidores municipais.</p><p>
+		crescente dos servidores municipais. <br>
 		Áreas contempladas: administração pública e participação.
-
-
 	</p>
 @endsection

@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/menu', function () {
+    return view('pages.menu');
+});
 Route::get('/cidade', function () {
     return view('pages.cidade');
 });
@@ -35,6 +38,6 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 Route::get('/sugestao', function () {
-    return view('sugestao');
+    return view('pages.sugestao');
 });
 Route::post('/sugestao', 'MessageController@store');

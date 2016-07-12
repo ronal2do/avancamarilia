@@ -1277,9 +1277,20 @@ img{
   .Pagina{
     color: #58585B;}
   .Padding{
+    padding: 0;
+  }
+  .Padding>p{
+    padding: 30px 35px;
+  }
+  .Padding-title{
     padding: 30px 35px;
   }
   .Amarelo{
+    background: #EEBC20;
+    color: white;
+    border: #f1f1f2 4px solid;
+  }
+  .Amarelo-link{
     background: #EEBC20;
     color: white;
   }
@@ -1287,6 +1298,9 @@ img{
     float: none;
 }
 @media only screen and (min-width : 768px) {
+  .Padding{
+    padding: 30px 35px;
+  }
   .Logo{
       background-image: url('../svg/logo.svg');
       background-size: contain;
