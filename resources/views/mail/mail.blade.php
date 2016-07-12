@@ -3,12 +3,12 @@
 <head>
 <meta name="viewport" content="width=device-width">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Muda São Caetano</title>
+<title>Avança Marília</title>
 </head><style>
   
   .Logo-container{
     width: 100%;
-    background: url('http://mudasaocaetano.com.br/assets/images/logo.png');
+    background: url('http://avancamarilia.com.br/assets/images/logo.png');
     background-size: cover;
     margin:0;
   }
@@ -26,7 +26,7 @@
       <div class="content" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; display: block; max-width: 600px; margin: 0 auto; padding: 0;">
       <table style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; width: 100%; margin: 0; padding: 0;"><tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
 <td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
-           <img src="http://mudasaocaetano.com.br/assets/images/logo.png" alt="Muda São Caetano" width="150">
+           <img src="http://avancamarilia.com.br/assets/images/logo.png" alt="Avança Marília" width="150">
             
             <h1 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 26px; line-height: 1.2em; color: #ffffff; font-weight: 200; margin: 40px 0 10px; padding: 0; color:#ffffff;">{{ $nome }}, <br></h1>
          

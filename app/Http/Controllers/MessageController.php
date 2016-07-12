@@ -13,7 +13,6 @@ use Alert;
 
 class MessageController extends Controller
 {
-   	
    	public function store(MessageRequest $request)
 	{
 	    $input 	= $request->all();
@@ -30,20 +29,21 @@ class MessageController extends Controller
 
 	    Alert::success('Sua sugestão foi enviada!')->autoclose(4000);
 
-	    // Mail::send('mail.mail', [
-     //     		'nome' => $nome, 
-     //     		'email' => $email, 
-     //        	'endereco' => $endereco, 
-     //        	'telefone' => $telefone, 
-     //        	'celular' => $celular, 
-     //        	'whatsapp' => $whatsapp, 
-     //        	'sugestao' => $sugestao
-     //     	], function ($m) use ($nome, $email, $endereco, $telefone, $celular, $whatsapp, $sugestao) {
+	    Mail::send('mail.mail', [
+         		'nome' => $nome, 
+         		'email' => $email, 
+            	'endereco' => $endereco, 
+            	'telefone' => $telefone, 
+            	'celular' => $celular, 
+            	'whatsapp' => $whatsapp, 
+            	'sugestao' => $sugestao
+         	], function ($m) use ($nome, $email, $endereco, $telefone, $celular, $whatsapp, $sugestao) {
             
-     //        $m->to($email)
-     //          ->cc('carlosserrao23@gmail.com', 'Muda São Caetano')
-     //          ->subject("Muda São Caetano - Nova sugestão");
-     //    });
+            $m->to($email)
+              ->cc('ronal2do@gmail.com', 'Avança Marília')
+              // ->cc('vinicius@viniciuscamarinha.com.br', 'Avança Marília')
+              ->subject("Avança Marília - Nova sugestão");
+        });
 
 	    return redirect()->intended('/menu');
 	}	

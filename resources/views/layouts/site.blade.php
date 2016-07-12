@@ -15,7 +15,7 @@
     <section class="Azul">    
         <div class="container ">
             <div class="col-md-10 col-md-offset-1 Header">
-                    <a href="/"><div class="Logo"></div></a>
+                <a href="/"><div class="Logo"></div></a>
             </div> 
         </div> 
     @yield('banner')

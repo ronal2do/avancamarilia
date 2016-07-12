@@ -9,7 +9,7 @@ return [
 
     'port' => env('MAIL_PORT', 587),
 
-    'from' => ['address' => 'postmaster@mudasaocaetano.com.br', 'name' => 'Muda São Caetano'],
+    'from' => ['address' => 'postmaster@avancamarilia.com.br', 'name' => 'Avança Marília'],
 
     'encryption' => env('MAIL_ENCRYPTION', ''),
 
