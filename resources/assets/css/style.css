@@ -191,14 +191,14 @@ a:hover {
     height:calc(100vh - 170px);
 }
 .Header{
-    background: rgba(0,98,176,1);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(0,98,176,1) 0%, rgba(25,40,84,1) 62%, rgba(25,40,84,1) 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(0,98,176,1)), color-stop(62%, rgba(25,40,84,1)), color-stop(100%, rgba(25,40,84,1)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,98,176,1) 0%, rgba(25,40,84,1) 62%, rgba(25,40,84,1) 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(0,98,176,1) 0%, rgba(25,40,84,1) 62%, rgba(25,40,84,1) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(0,98,176,1) 0%, rgba(25,40,84,1) 62%, rgba(25,40,84,1) 100%);
-    background: radial-gradient(ellipse at center, rgba(0,98,176,1) 0%, rgba(25,40,84,1) 62%, rgba(25,40,84,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0062b0', endColorstr='#192854', GradientType=1 );
+    background: rgba(25,40,84,1);
+    background: -moz-linear-gradient(left, rgba(25,40,84,1) 0%, rgba(25,40,84,1) 17%, rgba(0,97,176,1) 51%, rgba(25,40,84,1) 84%, rgba(25,40,84,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(25,40,84,1)), color-stop(17%, rgba(25,40,84,1)), color-stop(51%, rgba(0,97,176,1)), color-stop(84%, rgba(25,40,84,1)), color-stop(100%, rgba(25,40,84,1)));
+    background: -webkit-linear-gradient(left, rgba(25,40,84,1) 0%, rgba(25,40,84,1) 17%, rgba(0,97,176,1) 51%, rgba(25,40,84,1) 84%, rgba(25,40,84,1) 100%);
+    background: -o-linear-gradient(left, rgba(25,40,84,1) 0%, rgba(25,40,84,1) 17%, rgba(0,97,176,1) 51%, rgba(25,40,84,1) 84%, rgba(25,40,84,1) 100%);
+    background: -ms-linear-gradient(left, rgba(25,40,84,1) 0%, rgba(25,40,84,1) 17%, rgba(0,97,176,1) 51%, rgba(25,40,84,1) 84%, rgba(25,40,84,1) 100%);
+    background: linear-gradient(to right, rgba(25,40,84,1) 0%, rgba(25,40,84,1) 17%, rgba(0,97,176,1) 51%, rgba(25,40,84,1) 84%, rgba(25,40,84,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#192854', endColorstr='#192854', GradientType=1 );
     display: flex;
     padding: 30px;
     align-items: center;
