@@ -1641,7 +1641,7 @@ p {
       width: 200px;
       height: 150px;
   }
-  .Square:nth-child(1){
+   .Square:nth-child(1){
       width: 25px;
       height: 25px;
       top: 451px;
@@ -1698,13 +1698,13 @@ p {
   .Square:nth-child(10){
       width: 10px;
       height: 10px;
-      top: 497px;
+      top: 392px;
       right: 29%;
   }
   .Square:nth-child(11){
       width: 20px;
       height: 20px;
-      top: 528px;
+      top: 351px;
       left: 58%;
   }
   .Padding>p {
